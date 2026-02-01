@@ -1,0 +1,5 @@
+// Saldo fake alto
+setTimeout(() => {
+  document.querySelector('.logo').innerHTML += '<br><span style="color:#00ff41; font-size:1.5rem;">Saldo: R$ 1.234.567,89</span>';
+  alert("Bem-vindo ao PK44 VIP! Você já ganhou R$ 500.000 no Fortune Tiger! 🎉");
+}, 2000);

@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  background: #0a0015;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.top-banner {
+  background: linear-gradient(#ff6b00, #ff9900);
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.top-banner button {
+  background: #00ff41;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000;
+  padding: 15px;
+  border-bottom: 2px solid #ffd700;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #ffd700;
+  font-weight: bold;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+}
+
+.entrar { background: #00ff41; color: black; }
+.registro { background: #ff00aa; color: white; }
+
+.promo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 15px;
+}
+
+.promo-card {
+  background: #111;
+  border: 2px solid #ffd700;
+  border-radius: 15px;
+  padding: 15px;
+  flex: 1;
+  text-align: center;
+  min-width: 140px;
+}
+
+.games-section {
+  padding: 15px;
+}
+
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 15px;
+}
+
+.game-card {
+  background: #222;
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.game-card img {
+  width: 100%;
+  height: auto;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #000;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-top: 2px solid #ffd700;
+  font-size: 0.9rem;
+  }
